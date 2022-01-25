@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Book.master.cs" Inherits="BookStore.Book" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="CSS/Master.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>            
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <img class="ig" src="Assets/education.png" runat="server"/>
+                <div class="heading">BookStore</div>
+                <input class="serc" type="text" placeholder="Search..">
+               <a class="ic" href="#"> <i class="fa fa-user" aria-hidden="true">konika</i></a>
+               <a class="icc" href="#"> <i class="fa fa-shopping-cart" aria-hidden="true">cart</i>
+            </nav>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <div class="fixed-footer">
+        &copy; 2022,BookStore Private Limited.All rights reserved        
+    </div>
+</body>
+</html>
