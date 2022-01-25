@@ -1,8 +1,12 @@
-﻿/*.card {
+﻿body {
+    background: #00000029;
+}
+#card {
     top: 185px;
     left: 320px;
     width: 624px;
-    height: 300px;
+    height: 350px;
+    padding: 50px;
     background: #F5F5F5 0% 0% no-repeat padding-box;
     border-radius: 21px;
     opacity: 1;
@@ -29,16 +33,16 @@
     left: 391px;
     width: 209px;
     height: 24px;
-    text-align: left;
     font: normal normal medium 18px/24px Roboto;
     letter-spacing: 0px;
     color: #0A0102;
     text-transform: uppercase;
     opacity: 1;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
 }
-*/.card {
-    top: 166px;
-    left: 658px;
+.card {
     width: 389px;
     height: 425px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -67,22 +71,28 @@
     left: 727px;
     width: auto;
     height: auto;
+    background-color: transparent;
+    border:0px;
     text-align: left;
     letter-spacing: 0px;
     color: #0A0102;
     text-transform: uppercase;
     opacity: 1;
+    font-size:20px;
 }
 .toggle-bti {
     top: 194px;
     left: 881px;
     width: 89px;
     height: 33px;
+    background-color: transparent;
+    border: 0px;
     text-align: left;
     letter-spacing: 0px;
     color: #878787;
     text-transform: uppercase;
     opacity: 1;
+    font-size:20px;
 }
 
 .par {
@@ -109,7 +119,11 @@
     height: 40px;
     font-size: larger;
 }
+.card2 {
+    display: none;
+}
 
-#register{
-    left: 400px;
+#logincard {
+    margin-left: 116px;
+    margin-top: 147px;
 }

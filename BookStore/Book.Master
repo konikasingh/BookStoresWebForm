@@ -19,7 +19,7 @@
                 <div class="heading">BookStore</div>
                 <input class="serc" type="text" placeholder="Search..">
                <a class="ic" href="#"> <i class="fa fa-user" aria-hidden="true">konika</i></a>
-               <a class="icc" href="#"> <i class="fa fa-shopping-cart" aria-hidden="true">cart</i>
+               <a class="icc" href="#"> <i class="fa fa-shopping-cart" aria-hidden="true">cart</i></a>
             </nav>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>

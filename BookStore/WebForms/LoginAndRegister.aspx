@@ -11,14 +11,17 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-    <%--<div class="card">
-        <img class="img" src="../Assets/cardim.png" runat="server" />
-        <span class="ref">ONLINE BOOK SHOPPING</span>
-    </div>--%>
-
     <div class="container">
         <div class="row">
-            <div class="card">
+            <div class="col-md-6">
+                <div id="card" class="card">
+        <img class="img" src="../Assets/cardim.png" runat="server" />
+        <span class="ref">ONLINE BOOK SHOPPING</span>
+    </div>
+            </div>
+
+             <div class="col-md-6">
+                 <div id="logincard" class="card">
                 <div id="login" class="card-body">
                     <div class="button-box">
                         <div id="btn"></div>
@@ -26,7 +29,7 @@
                         <asp:Button class="toggle-bti" ID="button" runat="server" Text="Sign Up" />
                     </div>
                     <hr>
-
+                    <div class="card1">
                     <div class="form-group">
                         <div class="input-group">
                             <div class="input-group-prepend">
@@ -55,12 +58,10 @@
                         <button class="btn facebook-btn" type="button"><span><i class="fab fa-facebook-f"></i>Facebook</span> </button>
                         <button class="btn google-btn" type="button"><span><i class="fab fa-google-plus-g"></i>Google+</span> </button>
                     </div>
-                </div>
-            </div>
 
-            <div class="card">
-                <div class="card-body">
-                    <div id="register" class="form-group">
+                  </div>
+                     <div class="card2">
+                    <div class="form-group">
                         <asp:TextBox class="form-control" ID="name" runat="server">Name</asp:TextBox>
                     </div>
                     <div class="form-group">
@@ -90,10 +91,13 @@
                     <div class="form-group">
                         <asp:Button ID="buttonnn" class="btn btn-primary btn-block" runat="server" Text="Register" />
                     </div>
-
-                </div>
+                    </div>      
+                </div>                    
             </div>
-        </div>
+                
+            </div>
+            
+                   
+                </div>       
     </div>
-
 </asp:Content>
